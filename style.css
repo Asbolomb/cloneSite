@@ -34,7 +34,7 @@ body {
   display:flex;
   flex-direction: row-reverse;
   justify-content: space-between;
-  padding-left: 14vh;
+  padding-left: 20vh;
   padding-right: 10vh; }
   .news{
     position:static;
@@ -45,11 +45,22 @@ body {
     transform: scale(0.7);
   }
   
-  .li{
-    flex-wrap: wrap; 
-    flex-direction: row;  
-    min-height: 33vh;
+  .image1{
+    transform: scale(0.6);
   }
-  
- 
+  .image2{
+    transform: scale(0.6);
+  }
+  .image3{
+    transform: scale(0.6);
+  }
+  .image4{
+    transform: scale(0.6);
+  }
+  .image5{
+    transform: scale(0.6);
+  }
+  .image6{
+    transform: scale(0.6);
+  }
   
