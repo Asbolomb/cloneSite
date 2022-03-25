@@ -1,0 +1,55 @@
+body {
+    background-color: #DC0714;
+    background-size: cover;
+  }
+  p{
+    padding:20px;
+  font-family: "Roboto Condensed", system-ui, "Segoe UI", "Helvetica Neue", sans-serif;
+  font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 1.2;
+    color: white;
+    text-decoration: none;
+    
+  }
+  .navBar{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+   
+    padding-right: 15vh;  
+  }
+  .fa-solid{
+    color: white;
+  }
+  .logo{
+    align-self: flex-start;
+    padding-right: 300px;
+    padding-top: 40px;
+    transform: scale(0.6);
+  }
+  .headlines{
+  display:flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  padding-left: 14vh;
+  padding-right: 10vh; }
+  .news{
+    position:static;
+    background-color: black;
+    border-radius: 20%; 
+  }
+  .bank{
+    transform: scale(0.7);
+  }
+  
+  .li{
+    flex-wrap: wrap; 
+    flex-direction: row;  
+    min-height: 33vh;
+  }
+  
+ 
+  
